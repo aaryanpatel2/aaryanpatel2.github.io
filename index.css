@@ -720,7 +720,7 @@ span {
     }
 }
 
-@media(max-width: 991px) {
+@media(max-width:991px) {
     header {
         padding: 2rem 3%;
     }
@@ -731,16 +731,22 @@ span {
     .timeline-items::before{
         left:7px;
     }
+
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even){
         padding-left: 37px;
     }
 
     .timeline-dot{
-        left:0;
+        left: 0;
     }
 
-    .services{
+    .skills{
         padding-bottom: 7rem;
     }
 
@@ -756,7 +762,7 @@ span {
     }
 }
 
-@media(mad-wdith:895px){
+@media(max-width:895px){
     #menu-icon{
         display:block
     }
@@ -771,6 +777,7 @@ span {
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
+        display: none;
     }
 
     .navbar.active{
