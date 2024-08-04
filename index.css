@@ -487,6 +487,12 @@ span {
     margin: 5rem 0;
 }
 
+#adjust {
+    width: 100vh;
+    height: 20vh;
+    object-fit: cover;
+}
+
 .skils h2{
     color: var(--text-color);
 }
