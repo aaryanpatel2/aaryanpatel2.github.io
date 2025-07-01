@@ -24,6 +24,10 @@
     font-weight: 600;
 }
 
+#nba_api_link {
+    color: var(--main-color);
+}
+
 #school:hover, #school:active{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
@@ -59,8 +63,8 @@ body {
 }
 
 #bball {
-    height: 30px;
-    width: 30px;
+    height: 38px;
+    width: 38px;
     max-width: 300px;
     border-radius: 2em;
     object-fit: cover;
@@ -324,22 +328,22 @@ span {
 
     21%,
     40%{
-        content: "Web Developer";
+        content: "Full Stack Developer";
     }
 
     41%,
     60%{
-        content: "Data Scientist";
+        content: "Cloud Engineer";
     }
 
     61%,
     80% {
-        content: "Security Analyst";
+        content: "Cybersecurity Enthusiast";
     }
 
     81%,
     100% {
-        content: "Basketball Player";
+        content: "OKC Thunder Fan ⚡️";
     }
 
 }
@@ -560,6 +564,7 @@ span {
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
+    align-items: stretch;
 
 }
 
@@ -574,7 +579,7 @@ span {
     border-radius: 3rem;
     gap: 2rem;
     padding: 5rem 2rem;
-    overflow: hidden;
+    overflow: auto;
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color), 0 0 50px var(--main-color);
     transform: scale(1.02);

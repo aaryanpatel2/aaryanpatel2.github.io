@@ -3,7 +3,7 @@ let navabar = document.querySelector('.navbar');
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 let syButton = document.querySelector('#sy-btn');
-let wildfireButton = document.querySelector('#wildfire-btn');
+let nbaButton = document.querySelector('#nba-btn');
 let todoButton = document.querySelector('#todo-btn');
 let loginButton = document.querySelector('#login-btn');
 let first = document.querySelector('.first');
@@ -31,8 +31,8 @@ syButton.onclick = () => {
     window.open("https://github.com/aaryanpatel2/SwitchSynonyms")
 }
 
-wildfireButton.onclick = () => {
-    window.open("https://github.com/aaryanpatel2/NASA-EONET-Wildfires-Visualization")
+nbaButton.onclick = () => {
+    window.open("https://github.com/aaryanpatel2/nbaliveslack")
 }
 
 todoButton.onclick = () => {
@@ -49,9 +49,9 @@ function toggleBBall() {
 
     if (display == "none") {
             bball.style.display = "flex";
-        } else {
+    } else {
             bball.style.display = "none";
-        }
+    }
 }
 
 first.onclick = () => {
