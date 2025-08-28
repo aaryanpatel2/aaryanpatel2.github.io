@@ -287,6 +287,11 @@ span {
     color: black;
 }
 
+#inline {
+    display: flex;
+    gap: 1rem;
+}
+
 .text-animation {
     font-size: 34px;
     font-weight: 600;
@@ -493,11 +498,15 @@ span {
 
 #adjust {
     width: 100vh;
-    height: 20vh;
+    height: 25vh;
     object-fit: cover;
 }
 
-.skils h2{
+#fragrance-btn {
+    cursor: not-allowed
+}
+
+.skills h2{
     color: var(--text-color);
 }
 

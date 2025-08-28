@@ -2,10 +2,11 @@ let menuIcon = document.querySelector('#menu-icon');
 let navabar = document.querySelector('.navbar');
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
-let syButton = document.querySelector('#sy-btn');
+// let syButton = document.querySelector('#sy-btn');
 let nbaButton = document.querySelector('#nba-btn');
-let todoButton = document.querySelector('#todo-btn');
-let loginButton = document.querySelector('#login-btn');
+// let fragranceButton = document.querySelector('#fragrance-btn');
+let erisaButton = document.querySelector('#erisa-btn');
+let erisaLiveButton = document.querySelector('#erisa-live-btn');
 let first = document.querySelector('.first');
 let bball = document.getElementById('bball');
 let highlight = document.getElementById("highlight")
@@ -27,20 +28,24 @@ window.onscroll = () => {
     })
 }
 
-syButton.onclick = () => {
-    window.open("https://github.com/aaryanpatel2/SwitchSynonyms")
-}
+// syButton.onclick = () => {
+//     window.open("https://github.com/aaryanpatel2/SwitchSynonyms")
+// }
 
 nbaButton.onclick = () => {
     window.open("https://github.com/aaryanpatel2/nbaliveslack")
 }
 
-todoButton.onclick = () => {
-    window.open("https://github.com/aaryanpatel2/toeasytodo")
+// fragranceButton.onclick = () => {
+//     window.open("https://github.com/aaryanpatel2/toeasytodo")
+// }
+
+erisaButton.onclick = () => {
+    window.open("https://github.com/aaryanpatel2/erisa-recovery-dev-challenge")
 }
 
-loginButton.onclick = () => {
-    window.open("https://github.com/aaryanpatel2/roomiematch-login")
+erisaLiveButton.onclick = () => {
+    window.open("https://apdev.pythonanywhere.com")
 }
 
 function toggleBBall() {
@@ -69,9 +74,6 @@ contact.onclick = () => {
 highlight.onclick = () => {
     highlight.style.boxShadow = "";
 }
-
-
-
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
