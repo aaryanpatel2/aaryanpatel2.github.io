@@ -500,6 +500,13 @@ span {
     width: 100vh;
     height: 25vh;
     object-fit: cover;
+    object-position: 0% center;
+}
+
+#adjust-erisa {
+    width: 100vh;
+    height: 25vh;
+    object-fit: cover;
 }
 
 #fragrance-btn {

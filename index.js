@@ -10,6 +10,8 @@ let erisaLiveButton = document.querySelector('#erisa-live-btn');
 let first = document.querySelector('.first');
 let bball = document.getElementById('bball');
 let highlight = document.getElementById("highlight")
+let hysaButton = document.querySelector('#hysa-btn');
+
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -34,6 +36,10 @@ window.onscroll = () => {
 
 nbaButton.onclick = () => {
     window.open("https://github.com/aaryanpatel2/nbaliveslack")
+}
+
+hysaButton.onclick = () => {
+    window.open("https://github.com/aaryanpatel2/hysa_tracker")
 }
 
 // fragranceButton.onclick = () => {
